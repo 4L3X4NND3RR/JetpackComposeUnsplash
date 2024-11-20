@@ -14,6 +14,18 @@ Paging 3: Para relizar la paginacion con lazyloading.
 
 Dagger: Para utilizar inyeccion de dependencias.
 
+
+
+## Uso
+
+Para ejecutar la app se debe disponer de un access key de la api de unsplash https://unsplash.com/developers, luego agregar lo siguiente al archivo local.properties
+
+```
+API_KEY="Access Key"
+```
+
+
+
 ## Patron de diseño
 
 Este patron consiste en que la capa repository se encarga de obtener la informacion ya sea de la api rest o de la base de datos local.
